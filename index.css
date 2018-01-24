@@ -1,0 +1,105 @@
+/*index styling sheet for final*/
+
+body{
+	font-family:		serif;
+	color:				white;
+}
+
+#wrapper{
+	width:				1020px;
+	height:				950px;
+	border:				solid black 1px;
+	margin:				0px 0px 5px 120px;
+	padding:			0px 10px 5px 20px;
+}
+
+#header{
+	width:				1010px;
+	height:				200px;
+	background-color:	#9b393a;
+	border-bottom:		solid black 1px;
+	text-align:			center;
+}
+
+#header #image1{
+	float:				left;
+	margin:				10px;
+	box-shadow:			10px 5px 20px #5e2120;
+}
+
+#header h1{
+	padding:			10px 0 0 0;
+	text-decoration:	underline;
+}
+
+#sidebar{
+	width:				150px;
+	height:				600px;
+	background-color:	#b0918f;
+	float:				left;
+	padding:			5px;
+	border-right:		solid black 1px;
+}
+
+#sidebar ul{
+	list-style-type:	none;
+	margin:				0px;
+	padding:			0px;
+}
+
+#sidebar li{
+	margin:				80px 10px;
+	border:				solid black 1px;
+	box-shadow:			10px 5px 20px #655556;
+}
+
+#sidebar a{
+	display:			block;
+	color:				white;
+	background-color:	#a6a8b7;
+	width:				120px;
+	height:				45px;
+	padding:			2px 4px 2px 4px;
+	text-decoration:	underline;
+	text-align:			center;
+}
+
+#sidebar a:hover{
+	color:				#9b393a;
+}
+
+#main_nav{
+	width:				840px;
+	height:				600px;
+	background-color:	#a6a8b7;
+	float:				left;
+	padding:			5px;
+}
+
+#main_nav h1, h2{
+	text-decoration:	underline;
+	font-size:			35px;
+	padding:			5px 10px;
+}
+
+#main_nav p{
+	font-size:			16px;
+	padding:			5px 10px;
+}
+
+#main_nav #image2{
+	width:				150px;
+	height:				150px;
+	float:				left;
+	box-shadow:			10px 5px 20px #81828d;
+	margin:				5px;
+}
+
+#footer{
+	width:				400px;
+	height:				100px;
+	background-color:	#9b393a;
+	clear:				both;
+	border-top:			solid black 1px;
+	padding:			0px 305px 0px 305px;
+}
